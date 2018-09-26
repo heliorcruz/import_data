@@ -1,6 +1,6 @@
-# import_data
-Import data from .xlsx to MongoDB
-The example.xlsl can be used as template for the data to be imported
+# import_data  
+Import data from .xlsx to MongoDB  
+The example.xlsl can be used as template for the data to be imported  
 
 - settings configuration config.py   
 CONN_STRING = 'mongodb://admin:admin@127.0.0.1'
@@ -9,7 +9,7 @@ DATABASE = 'teste'
 COLLECTION = 'teste'  
 - file name to import  
 FILENAME = 'example.xlsx'  
-  
+- constant for sheet collumns  
 ALFA = "ABCDEFGHIJKLMNOPQRSTUVXZ"  
 - field collumns   
 FIELDS = [ "DATA",
